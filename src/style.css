@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.get_started {
+    color: white;
+    background-image: -webkit-linear-gradient(left top, #ff7b00,#f104de, #b408a6);
+    background-position: -415%;
+    background-size: 290%;
+}
+
+.purchase {
+    transition: all .4s;
+}
+
+.transition_effect {
+    transition: all .4s;
+}
+
+.subscribe {
+    top: 3px;
+}
+
+.search {
+    border-width: 1px;
+}
+
+.search::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #bebebe;
+    /* font-style: italic; */
+    font-family: 'Nunito';
+}
+
